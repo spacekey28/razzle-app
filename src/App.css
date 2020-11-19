@@ -3,3 +3,12 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+.gradient {
+  height: 100vh;
+  background-image:
+    linear-gradient(
+      to top right,
+      #ff8a00, #e52e71, red, yellow
+    );
+}

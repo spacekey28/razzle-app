@@ -40,7 +40,7 @@ server
             : `<script src="${assets.client.js}" defer crossorigin></script>`
         }
     </head>
-    <body>
+    <body class="gradient">
         <div id="root">${markup}</div>
     </body>
 </html>`
