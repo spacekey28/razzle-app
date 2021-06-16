@@ -38,6 +38,7 @@ class Home extends React.Component {
           <p className="Home-intro">
             To get started, edit <code>src/App.js</code> or{' '}
             <code>src/Home.js</code> and save to reload.
+            
           </p>
           <ul className="Home-resources">
             <li>
