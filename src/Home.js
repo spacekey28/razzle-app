@@ -2,29 +2,29 @@ import React from 'react';
 import logo from './react.svg';
 import './Home.css';
 
-const annyang = require('./assets/annyang.min.js');
+// const annyang = require('./assets/annyang.min.js');
 
 class Home extends React.Component {
 
   componentDidMount () {
-    const script = document.createElement("script");
+    // const script = document.createElement("script");
 
-    script.setAttribute('type', 'text/javascript');
-    script.innerHTML = `
-      if(annyang) {
-        var commands = {
-          'hello': function() { alert('Hello world!'); }
-        };
+    // script.setAttribute('type', 'text/javascript');
+    // script.innerHTML = `
+    //   if(annyang) {
+    //     var commands = {
+    //       'hello': function() { alert('Hello world!'); }
+    //     };
        
-        // Add our commands to annyang
-        annyang.addCommands(commands);
+    //     // Add our commands to annyang
+    //     annyang.addCommands(commands);
        
-        // Start listening.
-        annyang.start();
-      }
-    `;
+    //     // Start listening.
+    //     annyang.start();
+    //   }
+    // `;
 
-    document.body.appendChild(script);
+    // document.body.appendChild(script);
   }
 
   render() {
